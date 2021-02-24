@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Test page</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="stylesheet" href="css/foundation.min.css">
+		<link rel="stylesheet" href="css/style.css">
+        <script src="../_/js/script.js"></script>
+	</head>
+	<body>
+    <div class="row">
+        <div class="columns large-12">
+            <div class="panel">
+                <h1 class="text-center">Welcome to our site</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="columns  large-12">
+            <nav class="top-bar" data-topbar>
+                <ul class="title-area">
+                    <li class="name">
+                        <h1><a href="#">My Site</a></h1>
+                    </li>
+                </ul>
+                <section class="top-bar-section">
+                   <ul class="left">
+                        <li><a href="index.html">Main page</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our production</a></li>
+                        <li class="active"><a href="#">Register</a></li>
+                    </ul>
+               </section>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="columns  large-8">
+            <h2>Register</h2>
+			<form name="register">
+				<div class="row">
+					<div class="columns large-6">
+						<label for="login">Name</label>
+						<input type="text"  id="login" name="login" placeholder="Enter your name">
+					</div>
+				</div>
+				<div class="row">
+					<div class="columns large-6">
+						<label for="password">Password</label>
+						<input type="text" name="password"  id="password" placeholder="Enter password">
+					</div>
+				</div>
+				<div class="row">
+					<div class="columns large-12">
+						<label>Subscribe to our mailing list </label>
+						Yes <input type="radio" name="mlist" value='1' checked>
+						No <input type="radio" name="mlist" value='0'>
+						
+					</div>
+				</div>
+				<div class="row">
+					<div class="columns large-6">
+						<label>How did you hear about us ?</label>
+						<select name="reference">
+							<option value="tw">Twitter</option>
+							<option value="fb">Facebook</option>
+							<option value="vk">В контакте</option>
+						</select>							
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="columns large-6">
+						<label>Comments</label>
+						<textarea  name="comments"></textarea>
+					</div>
+				</div>
+				<div class="row">
+					<div class="columns large-6">
+						<input class="button small" type="button" name="btn" value="Register">
+					</div>
+				</div>
+				
+				
+				
+			</form>
+        
+        </div>
+        <div class="columns  large-4" id="last-news">
+            <h3>Last news</h3>
+            <ul>
+                <li class="last-news">
+					<h3><a href="">News 1</a></h3>
+					<p class="date">21.05.2014</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum vestibulum volutpat. Nulla dictum est sed ante varius.</p>
+				</li>
+                <li  class="last-news">
+					<h3><a href="">News 2</a></h3>
+					<p class="date">22.05.2014</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum vestibulum volutpat. Nulla dictum est sed ante varius.</p>
+				</li>
+				<li  class="last-news">
+					<h3><a href="">News 3</a></h3>
+					<p class="date">23.05.2014</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum vestibulum volutpat. Nulla dictum est sed ante varius.</p>
+				</li>
+				<li  class="last-news">
+					<h3><a href="">News 4</a></h3>
+					<p class="date">24.05.2014</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin fermentum vestibulum volutpat. Nulla dictum est sed ante varius.</p>
+				</li>
+            </ul>   
+        </div>
+    </div>
+    <div class="row">
+        <div class="columns large-12">
+            <footer class="panel  callout">
+                <p>&copy <span id="show-year"></span> Front end developers</p>
+            </footer>
+        </div>
+    </div>
+<script src="js/script.js"></script>
+	</body>
+</html>

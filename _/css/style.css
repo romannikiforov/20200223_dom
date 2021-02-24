@@ -1,0 +1,24 @@
+body{ padding-top:10px;}
+#wrap{
+	min-width:300px;
+}
+#error{
+	color:red;
+	text-align:center;
+	font:18px arial;
+}
+.hide{display:hidden;} .show{display:block;}
+#section { background:#e2e2e2; padding:14px 0; }
+.agree {color:red; font-weight:bold;}
+ .courses label {
+	display:block; overflow:hideen;
+ }
+ .courses label span{
+	float:left;
+	width:10%;
+	text-align:right;
+ }
+.courses label  input{
+	margin-left:20px;
+	
+}
